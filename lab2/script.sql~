@@ -1,0 +1,8 @@
+DROP TABLE lab2a;
+
+CREATE TABLE lab2a (i int, r number(6,2), txt varchar2(20), when date);
+
+INSERT INTO lab2a VALUES (1, 1.1, 'String 1',TO_DATE('01-Jan-2017', 'dd-mon-yyyy') );
+
+
+COMMIT;
