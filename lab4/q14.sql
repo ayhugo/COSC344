@@ -1,1 +1,0 @@
-SELECT orders.onum, customers.cname, customers.cnum, salespeople.snum FROM customers, salespeople, orders WHERE NOT salespeople.city = customers.city  AND customers.cnum = orders.cnum AND customers.snum = salespeople.snum;
